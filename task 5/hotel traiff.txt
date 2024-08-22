@@ -1,0 +1,19 @@
+int main(){
+  int m ,rent ,days;
+  scanf("%d%d%d" ,&m ,&rent ,&days);
+  int peek =rent*20/100
+  if(m>=1&&m<+12)
+  {
+   if(m==4||m==5||m==6||m==11||m==12)
+     printf("%d" , days*(rent+peek));
+   else
+     printf("%d" , days*rent);
+
+   }
+   else ("invalid input");
+
+
+    return 0;
+
+
+}
